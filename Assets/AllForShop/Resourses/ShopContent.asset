@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1607d7f9eec1983468d7971586fb87d1, type: 3}
+  m_Name: ShopContent
+  m_EditorClassIdentifier: 
+  _weapoonSkinItems:
+  - {fileID: 11400000, guid: e8f42a2d512b83b44a0439d09d8605ac, type: 2}
+  - {fileID: 11400000, guid: ded3055b9666c7c4ea85fadd008c69c3, type: 2}
+  - {fileID: 11400000, guid: 75240fa0f459c484bb58a066c356ac65, type: 2}
+  - {fileID: 11400000, guid: 7e5d0b50a744ba247b537a1fae13b216, type: 2}
+  _pokemonSkinItems: []
