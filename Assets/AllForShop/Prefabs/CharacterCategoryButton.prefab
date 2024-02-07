@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4854431392233504488}
   - component: {fileID: 7633966344761347837}
   - component: {fileID: 2205242001378613423}
+  - component: {fileID: 296992603332392896}
   m_Layer: 5
   m_Name: CharacterCategoryButton
   m_TagString: Untagged
@@ -121,6 +122,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &296992603332392896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887792376006226379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92f8e73b31f1bf4785830b21cee986c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _button: {fileID: 2205242001378613423}
+  _image: {fileID: 7633966344761347837}
+  _selectColor: {r: 1, g: 1, b: 1, a: 0}
+  _unselectColor: {r: 0.8431373, g: 0.8431373, b: 0.8431373, a: 0}
 --- !u!1 &8375823819765457279
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +172,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -13.7}
+  m_AnchoredPosition: {x: 0, y: -0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6067736454669817352
@@ -249,7 +266,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 31.829956, y: 2.014618, z: 39.082947, w: 40.694138}
+  m_margin: {x: 6.974121, y: 2.014618, z: 4.7749023, w: 40.694138}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

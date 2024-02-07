@@ -654,6 +654,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8876045583752522794}
+  - component: {fileID: 5056552427254462868}
+  - component: {fileID: 2442807647210966753}
+  - component: {fileID: 4508416247695420583}
   m_Layer: 5
   m_Name: Price
   m_TagString: Untagged
@@ -682,6 +685,57 @@ RectTransform:
   m_AnchoredPosition: {x: 1.5157013, y: 7.4226}
   m_SizeDelta: {x: -21.1381, y: 3.7887}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5056552427254462868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955879862161700648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6639bf5df3b754cb3aeb83f95399f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 5249408536120671730}
+--- !u!222 &2442807647210966753
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955879862161700648}
+  m_CullTransparentMesh: 1
+--- !u!114 &4508416247695420583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955879862161700648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &9121546845796759612
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,6 +747,7 @@ GameObject:
   - component: {fileID: 4188010184844441789}
   - component: {fileID: 4067738752236159229}
   - component: {fileID: 3033939019282065816}
+  - component: {fileID: 3088697052715696059}
   m_Layer: 5
   m_Name: WeaponItem
   m_TagString: Untagged
@@ -761,3 +816,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3088697052715696059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9121546845796759612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c8d74c58e882ce41a5b98be3afe6080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _standartBackground: {fileID: 21300000, guid: 1b212918de4fceb4289622cdb22df692, type: 3}
+  _hightlightBackground: {fileID: 21300000, guid: e3abc77c248eef4498194b6ef357595c, type: 3}
+  _contentImage: {fileID: 4029207143634080202}
+  _lockImage: {fileID: 8738135006504877034}
+  _priceView: {fileID: 5056552427254462868}
+  _selectionText: {fileID: 5940614818675216673}
