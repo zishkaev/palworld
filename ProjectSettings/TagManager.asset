@@ -4,6 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Stair
+  - WallRun
+  - Climb
+  - Fly
   - Action
   - AutoCrouch
   - Ragdoll
@@ -51,6 +55,7 @@ TagManager:
   - Pushable
   - CoverPoint
   - 
+  - Animal
   - 
   - 
   - 
@@ -60,8 +65,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Item
   - PostProcess
   m_SortingLayers:
   - name: Default
