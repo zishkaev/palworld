@@ -21,6 +21,4 @@ public class ShopCategoryButton : MonoBehaviour
 
     private void OnClick()=> Click?.Invoke();
 
-
-
 }

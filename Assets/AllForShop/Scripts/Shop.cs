@@ -42,8 +42,8 @@ public class Shop : MonoBehaviour
     private void OnCharactersWeaponsButtonClick()
     {
 
-        _charactersWeaponsButton.Select();
-        _pokemonsButton.Unselect();
+        _charactersWeaponsButton.Unselect();
+        _pokemonsButton.Select();
         _shopPanel.Show(_contentItems.WeapoonSkinItem.Cast<ShopItem>());
     }
 
