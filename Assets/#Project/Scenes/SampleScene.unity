@@ -3992,7 +3992,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &117829951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72106,6 +72106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bot 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5327064422647577146, guid: e097083562d765d42bf4615c55cb8004, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -72152,6 +72156,10 @@ PrefabInstance:
     - target: {fileID: 366789411162967270, guid: f421e72131f195047b5909d3da7534ed, type: 3}
       propertyPath: m_Name
       value: Bot 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 366789411162967270, guid: f421e72131f195047b5909d3da7534ed, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1034923747260110428, guid: f421e72131f195047b5909d3da7534ed, type: 3}
       propertyPath: m_LocalScale.x
