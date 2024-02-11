@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: RPG
   m_EditorClassIdentifier: 
   <Model>k__BackingField: {fileID: 0}
-  <Image>k__BackingField: {fileID: 21300000, guid: 89ba1f6f55195c944aad86c1767dfe52,
-    type: 3}
+  <Image>k__BackingField: {fileID: 21300000, guid: 89ba1f6f55195c944aad86c1767dfe52, type: 3}
   <Price>k__BackingField: 607
-  <Weapoons>k__BackingField: 3
+  <WeapoonsType>k__BackingField: 3

@@ -657,6 +657,7 @@ GameObject:
   - component: {fileID: 5056552427254462868}
   - component: {fileID: 2442807647210966753}
   - component: {fileID: 4508416247695420583}
+  - component: {fileID: 6557163340501249044}
   m_Layer: 5
   m_Name: Price
   m_TagString: Untagged
@@ -736,6 +737,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6557163340501249044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955879862161700648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6639bf5df3b754cb3aeb83f95399f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 5249408536120671730}
 --- !u!1 &9121546845796759612
 GameObject:
   m_ObjectHideFlags: 0

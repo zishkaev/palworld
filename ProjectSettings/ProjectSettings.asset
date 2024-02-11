@@ -734,7 +734,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT;DOTWEEN
+    Android: CROSS_PLATFORM_INPUT;DOTWEEN;MOBILE_INPUT
     EmbeddedLinux: DOTWEEN
     GameCoreScarlett: DOTWEEN
     GameCoreXboxOne: DOTWEEN
@@ -747,9 +747,9 @@ PlayerSettings:
     Standalone: INVECTOR_BASIC;INVECTOR_MELEE;INVECTOR_SHOOTER;CROSS_PLATFORM_INPUT;DOTWEEN
     VisionOS: DOTWEEN
     WebGL: DOTWEEN
-    Windows Store Apps: MOBILE_INPUT;DOTWEEN
+    Windows Store Apps: DOTWEEN;MOBILE_INPUT
     XboxOne: DOTWEEN
-    iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT;DOTWEEN
+    iPhone: CROSS_PLATFORM_INPUT;DOTWEEN;MOBILE_INPUT
     tvOS: DOTWEEN
   additionalCompilerArguments: {}
   platformArchitecture: {}

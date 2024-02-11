@@ -31,14 +31,6 @@ public class ShopContent :ScriptableObject
         if (pokemonsSkinsDublicates.Count() > 0)
             throw new InvalidOperationException(nameof(_pokemonSkinItems));
 
-
-
-
     }
-
-
-
-
-
 
 }
