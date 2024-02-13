@@ -1260,23 +1260,23 @@ MonoBehaviour:
   repeatRandomItems: 0
   items:
   - i: {fileID: 11400000, guid: 46fb6b24967524a49a6ac83a840d02b5, type: 2}
-    amountMin: 0
+    amountMin: 1
+    amountMax: 0
+    price: 100
+    finalAmount: 0
+    position: 0
+    randomSelected: 0
+  - i: {fileID: 11400000, guid: 461001bebc33bb84ea4533bc654e7928, type: 2}
+    amountMin: 1
     amountMax: 0
     price: 200
     finalAmount: 0
     position: 0
     randomSelected: 0
-  - i: {fileID: 11400000, guid: 26bf6c6654e754543add52eb5f2ff2fc, type: 2}
-    amountMin: 0
+  - i: {fileID: 11400000, guid: e48ae90b6021f9f49a4d9b2b5ab45612, type: 2}
+    amountMin: 1
     amountMax: 0
     price: 200
-    finalAmount: 0
-    position: 0
-    randomSelected: 0
-  - i: {fileID: 11400000, guid: 5a04c166873e9084a8d27bcab3fe94fd, type: 2}
-    amountMin: 0
-    amountMax: 0
-    price: 500
     finalAmount: 0
     position: 0
     randomSelected: 0

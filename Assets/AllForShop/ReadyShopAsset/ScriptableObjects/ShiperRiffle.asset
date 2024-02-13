@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ccd81e1927c23e44ad10ea3cdb22c4c, type: 3}
-  m_Name: Key
-  m_EditorClassIdentifier: 
-  id: 6
-  itemName: Key
-  description: Metal failure
-  Image: {fileID: -357649465742773655, guid: 9c0dc5346e169604ebf1abfc5d3116e2, type: 3}
+  m_Script: {fileID: 0}
+  m_Name: ShiperRiffle
+  m_EditorClassIdentifier: Assembly-CSharp::ShopItem
+  id: 3
+  itemName: SniperRiffle
+  description: 
+  Image: {fileID: 21300000, guid: 71509c5d804e82d4bab6ecd153b20f9f, type: 3}
