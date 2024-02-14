@@ -15,4 +15,4 @@ MonoBehaviour:
   botName: bot 7
   icon: {fileID: 21300000, guid: a5f38d6bbe522b441847bd7414d0cec1, type: 3}
   enemyPrefab: {fileID: 4208096000771581781, guid: 4ea42a82acd25f046b9009be1887a576, type: 3}
-  companionPrefab: {fileID: 8194598166506341254, guid: 340211765390b6d44a5c7c37909c2721, type: 3}
+  companionPrefab: {fileID: 6899438626667183999, guid: d2ed84ede2c56c84ca073ac1c79d4977, type: 3}

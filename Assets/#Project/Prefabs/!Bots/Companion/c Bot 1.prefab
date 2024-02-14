@@ -415,7 +415,7 @@ GameObject:
   - component: {fileID: 985189389309022477}
   - component: {fileID: 2201620393436391367}
   - component: {fileID: 2633873790641388580}
-  m_Layer: 10
+  m_Layer: 2
   m_Name: hitBox
   m_TagString: Ignore Ragdoll
   m_Icon: {fileID: 0}
@@ -956,7 +956,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 814f1055e2802314fab28a3f89a65459, type: 2}
+  - {fileID: 2100000, guid: 045dc7b91e7020d49bae2e3030958ab2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1034,7 +1034,7 @@ GameObject:
   - component: {fileID: 3116944141426069661}
   - component: {fileID: 5584477712193290612}
   - component: {fileID: 1466286567426411187}
-  m_Layer: 10
+  m_Layer: 2
   m_Name: hitBox
   m_TagString: Ignore Ragdoll
   m_Icon: {fileID: 0}
@@ -1139,7 +1139,7 @@ GameObject:
   - component: {fileID: 5740166167345649528}
   - component: {fileID: 475304588466770824}
   - component: {fileID: 4996380780143430557}
-  m_Layer: 10
+  m_Layer: 2
   m_Name: hitBox
   m_TagString: Ignore Ragdoll
   m_Icon: {fileID: 0}
@@ -1745,7 +1745,7 @@ GameObject:
   - component: {fileID: 4145187861331349174}
   - component: {fileID: 958017728703436577}
   - component: {fileID: 7727134876648267989}
-  m_Layer: 10
+  m_Layer: 2
   m_Name: hitBox
   m_TagString: Ignore Ragdoll
   m_Icon: {fileID: 0}
