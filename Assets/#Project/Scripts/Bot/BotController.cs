@@ -1,13 +1,9 @@
-using Invector.vCharacterController.AI;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
+using Invector;
 using UnityEngine;
 
 public class BotController : MonoBehaviour {
 	public BotAsset asset;
-	public vSimpleMeleeAI_Controller controller;
+	public vHealthController controller;
 	public bool isPokeball;
 	private bool createdPokeBall;
 

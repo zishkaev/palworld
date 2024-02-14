@@ -10,7 +10,7 @@ public class PokeBall : MonoBehaviour
 
 	private void Start() {
 		triggerVolume.Enter += Enter;
-		triggerVolume.Exit -= Exit;
+		triggerVolume.Exit += Exit;
 	}
 
 	private void Enter() {

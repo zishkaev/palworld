@@ -1,28 +1,30 @@
 using Invector.vCharacterController;
+using Invector.vCharacterController.AI;
+using System.Collections;
 using UnityEngine;
 
 public class SpawnController : Singletone<SpawnController> {
-	private Transform playerTransform;
-
-
-	private void Start() {
-		var cont = FindObjectOfType<vThirdPersonController>();
-		if (cont != null) {
-			playerTransform = cont.transform;
-		}
-	}
-
 	public void Spawn(BotAsset asset) {
 		
 	}
 
 	public void SpawnNearPlayer(BotAsset asset) {
-		var a = UnityEngine.Random.Range(0, 360);
-		Vector3 p = playerTransform.position + Quaternion.Euler(0,a,0)* Vector3.forward;
-		Spawn(asset.prefab, p, Quaternion.identity);
+		var a = Random.Range(0, 360);
+		Vector3 p = PlayerController.instance.transform.position + Quaternion.Euler(0,a,0)* Vector3.forward;
+		var bot = Spawn(asset.companionPrefab, p, Quaternion.identity);
+		StartCoroutine(SetSettingsForCompanion(bot));
 	}
 
-	public void Spawn(GameObject prefab, Vector3 p, Quaternion q) {
-		Instantiate(prefab, p, q);
+	IEnumerator SetSettingsForCompanion(GameObject bot) {
+		var companion = bot.GetComponentInChildren<vSimpleMeleeAI_Companion>();
+		if (companion) {
+			companion.companion = PlayerController.instance.transform;
+			yield return null;
+			companion.companionState = vSimpleMeleeAI_Companion.CompanionState.Follow;
+		}
+	}
+
+	public GameObject Spawn(GameObject prefab, Vector3 p, Quaternion q) {
+		return Instantiate(prefab, p, q);
 	}
 }
