@@ -13,10 +13,6 @@ MonoBehaviour:
   m_Name: bot 1
   m_EditorClassIdentifier: 
   botName: bot 1
-  icon: {fileID: 21300000, guid: 4bca88b7d29b69f4f82c02da8a642bc6, type: 3}
-  prefab: {fileID: 5327064422647577146, guid: e097083562d765d42bf4615c55cb8004, type: 3}
-  botParams:
-    health: 100
-    damage: 10
-    size: 0.4
-    speed: 1
+  icon: {fileID: 21300000, guid: b45d674bb03b32b419bd54e7cd3f7fb8, type: 3}
+  enemyPrefab: {fileID: 8178958173800097997, guid: 07538266cb9af4d4f95771023d39a312, type: 3}
+  companionPrefab: {fileID: 8194598166506341254, guid: 340211765390b6d44a5c7c37909c2721, type: 3}

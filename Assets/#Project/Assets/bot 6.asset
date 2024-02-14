@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 954eaccc354376a4c883c7308cc2f50f, type: 3}
-  m_Name: bot 2
+  m_Name: bot 6
   m_EditorClassIdentifier: 
-  botName: bot 1
-  icon: {fileID: 21300000, guid: 2d115f44d33c007448e6994a14aa38a2, type: 3}
-  enemyPrefab: {fileID: 9043100789055454121, guid: 3754cf27b8d708b43b81000bc26bacff, type: 3}
+  botName: bot 6
+  icon: {fileID: 21300000, guid: deb11582d916d234e8a6c58020159efa, type: 3}
+  enemyPrefab: {fileID: 945543688318824577, guid: dbfd78a037bc36e47aad900ba9306f27, type: 3}
   companionPrefab: {fileID: 8194598166506341254, guid: 340211765390b6d44a5c7c37909c2721, type: 3}
