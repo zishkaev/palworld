@@ -445,7 +445,15 @@ PlayerSettings:
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
-  m_TemplateCustomTags: {}
+  m_TemplateCustomTags:
+    GAMEREADY_AUTOCALL_DELAY: 
+    OVERLAY_BACKGROUND_COLOR: 
+    PROGRESS_BAR_BACKGROUND_COLOR: 
+    PROGRESS_BAR_BORDER_COLOR: 
+    PROGRESS_BAR_FILL_COLOR: 
+    PROJECT_ID: 11989
+    SHOW_PRELOADER_AD: 
+    TOKEN: OO4FYMqr2qFRPisqSrkBNqwe0QSHJDwh
   mobileMTRendering:
     Android: 1
     iPhone: 1
@@ -718,14 +726,14 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Default
+  webGLTemplate: PROJECT:GamePush
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 1
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
-  webGLDecompressionFallback: 0
+  webGLDecompressionFallback: 1
   webGLInitialMemorySize: 32
   webGLMaximumMemorySize: 2048
   webGLMemoryGrowthMode: 2
@@ -746,7 +754,7 @@ PlayerSettings:
     Stadia: DOTWEEN
     Standalone: INVECTOR_BASIC;INVECTOR_MELEE;INVECTOR_SHOOTER;CROSS_PLATFORM_INPUT;DOTWEEN
     VisionOS: DOTWEEN
-    WebGL: DOTWEEN
+    WebGL: DOTWEEN;INVECTOR_BASIC;INVECTOR_MELEE;INVECTOR_SHOOTER
     Windows Store Apps: DOTWEEN;MOBILE_INPUT
     XboxOne: DOTWEEN
     iPhone: CROSS_PLATFORM_INPUT;DOTWEEN;MOBILE_INPUT
