@@ -73,7 +73,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   asset: {fileID: 0}
-  controller: {fileID: 5036640460920236928}
+  health: {fileID: 5036640460920236928}
   isPokeball: 0
 --- !u!195 &1095632040440475400
 NavMeshAgent:

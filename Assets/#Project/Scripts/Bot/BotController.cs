@@ -3,12 +3,14 @@ using UnityEngine;
 
 public class BotController : MonoBehaviour {
 	public BotAsset asset;
-	public vHealthController controller;
+	public vHealthController health;
 	public bool isPokeball;
+
 	private bool createdPokeBall;
+	private float delayDestroy = 5f;
 
 	private void Start() {
-		controller.onChangeHealth.AddListener(ChangeHealth);
+		health.onChangeHealth.AddListener(ChangeHealth);
 	}
 
 	private void ChangeHealth(float value) {
@@ -18,6 +20,7 @@ public class BotController : MonoBehaviour {
 				PokeBallController.instance.CreatePokeBall(asset, transform.position);
 				gameObject.SetActive(false);
 			}
+			Destroy(gameObject, delayDestroy);
 		}
 	}
 }
