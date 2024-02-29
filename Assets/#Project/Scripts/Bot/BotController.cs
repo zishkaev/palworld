@@ -2,11 +2,12 @@ using Invector;
 using UnityEngine;
 
 public class BotController : MonoBehaviour {
+	public CurrencyLoot loot;
 	public BotAsset asset;
 	public vHealthController health;
 	public bool isPokeball;
 
-	private bool createdPokeBall;
+	private bool dead;
 	private float delayDestroy = 5f;
 
 	private void Start() {
@@ -14,12 +15,13 @@ public class BotController : MonoBehaviour {
 	}
 
 	private void ChangeHealth(float value) {
-		if (value <= 0) {
-			if (isPokeball && !createdPokeBall) {
-				createdPokeBall = true;
+		if (value <= 0 && !dead) {
+			dead = true;
+			if (isPokeball) {
 				PokeBallController.instance.CreatePokeBall(asset, transform.position);
 				gameObject.SetActive(false);
-			}
+			} 
+			loot.SpawnLoot(transform.position);
 			Destroy(gameObject, delayDestroy);
 		}
 	}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954eaccc354376a4c883c7308cc2f50f, type: 3}
+  m_Name: bot 4
+  m_EditorClassIdentifier: 
+  botName: bot 4
+  icon: {fileID: 21300000, guid: 1843e6020c56404419222f0d620bf560, type: 3}
+  enemyPrefab: {fileID: 714344843939200927, guid: a3dc2fbbe6c39b64a89ade3071094307, type: 3}
+  companionPrefab: {fileID: 6899438626667183999, guid: 67c79d20c4cd83a47ad08f4dfd6e9539, type: 3}
