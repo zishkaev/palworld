@@ -3,7 +3,6 @@ using UnityEngine;
 public class StartSpawnBot : MonoBehaviour {
 	public BotAsset[] botAssets;
 	public int botCount;
-	public AnimationCurve sizeBotCurve;
 
 	//public Vector3 spawnBorderSize;
 	//public Vector2 sizeBorder;
@@ -37,6 +36,7 @@ public class StartSpawnBot : MonoBehaviour {
 		Vector3 p = spawnZones[Random.Range(0, spawnZones.Length)].GetSpawnPoint();
 		var bot = SpawnController.instance.Spawn(asset.enemyPrefab, p, Quaternion.identity);
 		SettingBot(bot);
+		//bot.transform.localScale = Vector3.one * size;
 	}
 
 	private void SettingBot(GameObject bot) {
@@ -45,7 +45,5 @@ public class StartSpawnBot : MonoBehaviour {
 		controller.health.maxHealth = (int)(size * 100);
 		controller.health.ResetHealth();
 		controller.isPokeball = Random.value < 0.5f;
-		//size
-		bot.transform.localScale = Vector3.one * sizeBotCurve.Evaluate(size * 1.0f / botAssets.Length);
 	}
 }
